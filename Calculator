@@ -1,2 +1,7 @@
 Console.WriteLine("My Name is Zeeshan");
 Console.WriteLine("My Roll No. is 36");
+Console.WriteLine("Enter Tow Numbers");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Subtraction Is :" {a-b});
+
