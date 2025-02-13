@@ -1,2 +1,10 @@
 Console.WriteLine("My Name is Zeeshan");
 Console.WriteLine("My Roll No. is 36");
+//
+Console.WriteLine("enter a number");
+int n1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter a number");
+int n2 = Convert.ToInt32(Console.ReadLine());
+int sum;
+sum = n1 + n2;
+Console.WriteLine("Sum of Two Numbers is:"+sum);
